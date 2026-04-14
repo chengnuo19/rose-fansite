@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+data/
+server/data/
+client/public/media/uploads/
+server/src/db/fansite.sqlite
