@@ -9,3 +9,5 @@ data/
 server/data/
 client/public/media/uploads/
 server/src/db/fansite.sqlite
+!server/src/data/
+!server/src/data/seed.js
