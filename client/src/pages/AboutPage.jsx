@@ -19,11 +19,11 @@ export default function AboutPage() {
             About Rosé
           </p>
           <h1 className="mt-4 font-display text-4xl text-white sm:text-5xl">
-            把“偶像介绍”改成更有时效性的 Rosé 最近动态页。
+            Rosé 最近动态与公开活动
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300">
-            这一页现在不再只是静态简介，而是整理了 Rosé 最近可追踪的社媒入口、
-            公开活动和近况节点。页面数据按 {lastChecked} 核对，方便粉丝快速补近况。
+            这里整理了 Rosé 最近可追踪的社媒入口、公开活动和近况节点。
+            页面数据按 {lastChecked} 核对，方便粉丝快速查看近期动态。
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

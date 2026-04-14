@@ -11,7 +11,7 @@ const fanLines = [
   "今天也在为 Rosé 的每个瞬间心动。",
   "欢迎把喜欢写成评论，让这面照片墙更有温度。",
   "每一次点赞，都会让应援热度再往上跳一点。",
-  "粉丝互动越多，这个页面就越像真正的 fan site。",
+  "粉丝互动会持续汇聚到这面照片墙与热度榜单中。",
 ];
 
 export default function FanPulseSection({ images, recentComments, activeFans, currentLine }) {
@@ -42,10 +42,10 @@ export default function FanPulseSection({ images, recentComments, activeFans, cu
           </div>
 
           <h2 className="mt-5 font-display text-3xl text-white sm:text-4xl">
-            让页面看起来像真的有人正在应援。
+            首页互动内容实时汇聚在这里。
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
-            首页现在会同时展示最热内容、最新评论和粉丝投稿内容，用户更容易感受到这是一个持续活跃的 fan site。
+            首页会同时展示最热内容、最新评论和粉丝投稿内容，方便集中查看当前互动热度与更新动态。
           </p>
 
           <div className="mt-6 flex items-start gap-3 rounded-[1.6rem] border border-white/10 bg-black/20 p-4">

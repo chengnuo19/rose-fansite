@@ -287,7 +287,7 @@ export default function GallerySection({ images, onOpen, onLike }) {
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300">
             现在支持杂志翻页和拍立得相册两种展示模式自由切换，还加入了自动翻页、
-            手机滑动和全屏沉浸式看图，让首页更像一个真正会动起来的粉丝写真站。
+            手机滑动和全屏沉浸式看图，让首页浏览体验更完整、更有层次。
           </p>
         </div>
 

@@ -24,15 +24,15 @@ const fanAccounts = [
 const cards = [
   {
     title: "联系邮箱",
-    description: "如果你想继续补图、换文案、加模块，或者把这个站继续做成长期运营版，可以先从邮箱联系开始。",
+    description: "这里保留了站内联系邮箱，适合用于商务合作、投稿沟通或粉丝来信入口。",
   },
   {
     title: "粉丝站入口",
-    description: "这里放了几条 Rosé 相关粉丝账号链接，方便从站内直接跳过去补近况、找应援信息或继续扩展内容。",
+    description: "这里整理了几条 Rosé 相关粉丝账号链接，方便从站内直接跳转查看近况和应援信息。",
   },
   {
     title: "页面用途",
-    description: "这一块现在更像一个联系与扩展面板，不只是占位文案，后面也可以继续接更多官方站和粉丝站入口。",
+    description: "这一页作为联系与导航面板使用，整合了邮箱、粉丝站和后续可扩展的站内联络入口。",
   },
 ];
 
@@ -44,11 +44,11 @@ export default function ContactPage() {
           Contact
         </p>
         <h1 className="mt-4 font-display text-4xl text-white sm:text-5xl">
-          想继续改这个站，可以从这里开始。
+          联系方式与粉丝站入口
         </h1>
         <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300">
-          我已经把你提供的邮箱加入到这里，同时补了一些 Rosé 粉丝站账号入口。
-          如果后面你想把这块继续做成真正的联络页，也可以再补更多站点、社媒和投稿方式。
+          这里汇总了联系邮箱与 Rosé 粉丝站账号入口，方便查看联络方式、
+          站外应援资讯与相关跳转链接。
         </p>
 
         <div className="mt-8 grid gap-4 xl:grid-cols-[1.1fr_0.9fr]">
@@ -65,8 +65,8 @@ export default function ContactPage() {
                   roiseareroses@yeah.net
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300">
-                  点击这里就可以直接调用本机邮箱应用。如果你之后要把它改成商务合作、
-                  投稿联系或粉丝来信入口，这个位置也很合适。
+                  点击这里即可直接调用本机邮箱应用。这里适合用作商务合作、
+                  投稿联系或粉丝来信入口。
                 </p>
               </div>
               <div className="rounded-2xl bg-white/10 p-3 text-blush-200 transition group-hover:bg-white/15">
@@ -81,7 +81,7 @@ export default function ContactPage() {
               <p className="text-xs uppercase tracking-[0.3em]">Fan Links</p>
             </div>
             <p className="mt-4 text-sm leading-7 text-slate-300">
-              下面这些是我帮你补进去的第三方粉丝账号入口，适合放在联系页做延伸跳转。
+              下面整理的是第三方粉丝账号入口，适合放在联系页做延伸跳转。
             </p>
             <p className="mt-3 text-xs leading-6 text-slate-500">
               注：它们不是官方账号，而是粉丝维护的资讯/应援入口。

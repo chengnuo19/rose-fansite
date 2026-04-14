@@ -1,10 +1,10 @@
 ﻿import { useEffect, useMemo, useState } from "react";
-import BgmStation from "../components/BgmStation";
 import FanPulseSection from "../components/FanPulseSection";
 import FanModal from "../components/FanModal";
 import FloatingCommentWall from "../components/FloatingCommentWall";
 import GallerySection from "../components/GallerySection";
 import HeroSection from "../components/HeroSection";
+import MusicPlatformSection from "../components/MusicPlatformSection";
 import PolaroidGenerator from "../components/PolaroidGenerator";
 import QuizSection from "../components/QuizSection";
 import RandomPhotoSpotlight from "../components/RandomPhotoSpotlight";
@@ -138,10 +138,10 @@ export default function HomePage({ theme, onThemeChange }) {
               Fan Energy
             </p>
             <h2 className="mt-3 text-2xl font-semibold text-white">
-              不只是看图，更像一个小型粉丝互动社区。
+              图片浏览、评论互动与投稿内容集中展示。
             </h2>
             <p className="mt-3 text-sm leading-7 text-slate-300">
-              你可以在每张图片下点赞、评论，也可以让管理员处理不合适内容。
+              每张图片都支持点赞、评论与互动管理，相关内容会同步更新到首页展示区域。
             </p>
           </div>
           <div className="rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-sky-400/15 to-white/5 p-6">
@@ -187,7 +187,7 @@ export default function HomePage({ theme, onThemeChange }) {
       )}
 
       {!loading && !error ? <RoseTimelineSection /> : null}
-      {!loading && !error ? <BgmStation /> : null}
+      {!loading && !error ? <MusicPlatformSection /> : null}
       {!loading && !error ? <PolaroidGenerator images={images} /> : null}
       <QuizSection />
 
@@ -199,11 +199,11 @@ export default function HomePage({ theme, onThemeChange }) {
             Built For Fans
           </p>
           <h2 className="mt-3 font-display text-3xl text-white sm:text-4xl">
-            这一版已经包含前端、后端、数据库和管理员能力。
+            站内已集成完整的互动与管理功能。
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-8 text-slate-300">
-            现在还额外加入了时间轴、主题切换、BGM 面板、拍立得生成器、
-            漂流留言墙、随机看图和粉丝小测试，网站的可玩性已经明显更高了。
+            页面同时包含时间轴、主题切换、音乐入口、拍立得生成器、
+            漂流留言墙、随机看图和粉丝小测试等内容模块。
           </p>
         </div>
       </section>

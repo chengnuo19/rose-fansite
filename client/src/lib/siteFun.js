@@ -48,28 +48,65 @@ export const timelineMoments = [
 
 export const bgmTracks = [
   {
-    id: "fansite-live",
-    title: "Fansite Live Mix",
-    subtitle: "站内本地播放",
-    vibe: "使用站内现有本地媒体做成可直接播放的 BGM 版本，先让整个站真正动起来。",
-    audioSrc: "/media/hero-video.mp4",
+    id: "apt",
+    title: "APT.",
+    subtitle: "ROSÉ & Bruno Mars",
+    vibe: "适合放在首页做高热度代表曲，页面一打开就会更有当下感和讨论度。",
     poster: "/media/e44ccaac0ac9681bf82d2909403ab35f.jpg",
+    appleMusicUrl: "https://music.apple.com/us/song/apt/1773452221",
+    appleEmbedUrl:
+      "https://embed.music.apple.com/us/song/apt/1773452221?theme=dark",
+    qqMusicUrl:
+      "https://y.qq.com/n/ryqq/search?w=APT%20ROS%C3%89%20Bruno%20Mars",
   },
   {
-    id: "soft-room",
-    title: "Soft Room Mood",
-    subtitle: "站内本地播放",
-    vibe: "更适合夜里刷图、切主题和做拍立得时开着循环。",
-    audioSrc: "/media/hero-video.mp4",
+    id: "on-the-ground",
+    title: "On The Ground",
+    subtitle: "ROSÉ",
+    vibe: "更适合搭配日常感和大图浏览，气质会更柔和，也很适合粉丝站常驻播放。",
     poster: "/media/2f7a49b05ed7d261d54f3e6d7550ca06.jpg",
+    appleMusicUrl: "https://music.apple.com/us/song/on-the-ground/1557745420",
+    appleEmbedUrl:
+      "https://embed.music.apple.com/us/song/on-the-ground/1557745420?theme=dark",
+    qqMusicUrl:
+      "https://y.qq.com/n/ryqq/search?w=On%20The%20Ground%20ROS%C3%89",
   },
   {
-    id: "editorial-night",
-    title: "Editorial Night",
-    subtitle: "站内本地播放",
-    vibe: "搭配杂志风和时间轴模块时会更有沉浸感，后面也可以替换成你自己的授权音频。",
-    audioSrc: "/media/hero-video.mp4",
+    id: "gone",
+    title: "Gone",
+    subtitle: "ROSÉ",
+    vibe: "适合夜间浏览、时间轴和拍立得留言页，情绪会更浓一点。",
     poster: "/media/13ee2758cbc3c7c2f06c615b3b2f85b9.jpg",
+    appleMusicUrl: "https://music.apple.com/us/song/gone/1557745423",
+    appleEmbedUrl:
+      "https://embed.music.apple.com/us/song/gone/1557745423?theme=dark",
+    qqMusicUrl: "https://y.qq.com/n/ryqq/search?w=Gone%20ROS%C3%89",
+  },
+  {
+    id: "number-one-girl",
+    title: "number one girl",
+    subtitle: "ROSÉ",
+    vibe: "偏近年的个人作品，适合放进歌单区做情绪切换，也能让页面更像完整歌单站。",
+    poster: "/media/94509c19f893c6c33e95f785c4c8d566.jpg",
+    appleMusicUrl:
+      "https://music.apple.com/us/song/number-one-girl/1771105923",
+    appleEmbedUrl:
+      "https://embed.music.apple.com/us/song/number-one-girl/1771105923?theme=dark",
+    qqMusicUrl:
+      "https://y.qq.com/n/ryqq/search?w=number%20one%20girl%20ROS%C3%89",
+  },
+  {
+    id: "toxic-till-the-end",
+    title: "toxic till the end",
+    subtitle: "ROSÉ",
+    vibe: "更适合杂志风主题和夜色主题一起用，视觉和听感会更统一。",
+    poster: "/media/e6eacc1b032f8d984cac0cbce7efa19a.jpg",
+    appleMusicUrl:
+      "https://music.apple.com/us/song/toxic-till-the-end/1771105929",
+    appleEmbedUrl:
+      "https://embed.music.apple.com/us/song/toxic-till-the-end/1771105929?theme=dark",
+    qqMusicUrl:
+      "https://y.qq.com/n/ryqq/search?w=toxic%20till%20the%20end%20ROS%C3%89",
   },
 ];
 

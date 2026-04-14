@@ -159,11 +159,11 @@ export default function BgmStation() {
               BGM Station
             </p>
             <h2 className="mt-3 font-display text-3xl text-white sm:text-4xl">
-              现在已经是站内可播放的 BGM 播放器
+              音乐入口与站内播放面板
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-300">
-              这一版不再只是跳外链，而是可以直接在网站里播放、暂停、切歌和拖动进度。
-              目前先使用站内现有本地媒体做播放器底稿，后面你给我新的音频文件，我可以再替换成正式歌单。
+              这里整合了站内音乐展示与外部平台入口，可用于播放、切换曲目和延伸跳转。
+              当前面板使用现有媒体资源与歌单信息进行展示，后续也可继续扩展平台与曲目内容。
             </p>
           </div>
           <button
